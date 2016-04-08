@@ -43,12 +43,6 @@ PARAMETERS
            Land  12000 /
    c_inp(plnt) Objective function coefficients to read in from Matlab ($ per plant);
 
-*Load user-specified profit data from Matlab (GDX file)
-$GDXIN PlantProfit.gdx
-$LOAD   c_inp
-$GDXIN
-*Assign input to model parameter
-c(plnt) = c_inp(plnt);
 
 TABLE A(plnt,res) Left hand side constraint coefficients
                  Water    Land

@@ -100,8 +100,8 @@ sProfit.uels={'Eggplant' 'Tomatoes'}; %Index values in GAMS
 % Write the GDX structure to a file
 wgdx('PlantProfit',sProfit); 
 
-%msgbox('Data written to PlantProfit.gdx')
-%return %break here after writing data but before running gams
+msgbox('Data written to PlantProfit.gdx')
+return %break here after writing data but before running gams
 
 % Run the GAMS model
 gams('Ex2-1-parametric');
